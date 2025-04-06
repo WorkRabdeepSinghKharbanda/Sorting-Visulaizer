@@ -1,0 +1,74 @@
+.setup-container {
+    padding: 1rem;
+    background-color: #f1f1f1;
+    width: 25%;
+    height: 92vh;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Inputs and selects */
+input[type="number"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  transition: background 0.3s ease-in-out, transform 0.2s ease;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+button.start {
+  background-color: #3b82f6;
+  color: white;
+}
+
+button.start:hover {
+  background-color: #2563eb;
+}
+
+button.reset {
+  background-color: #ef4444;
+  color: white;
+}
+
+button.reset:hover {
+  background-color: #dc2626;
+}
+
+/* Slider */
+input[type="range"] {
+  width: 100%;
+  margin-top: 0.5rem;
+}
