@@ -85,4 +85,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This site is deploy at [sorting visulaizer](https://sorting-visulaizer.netlify.com)
+This site is deploy at [sorting visulaizer](https://aesthetic-sorting-visualizer.netlify.app)
